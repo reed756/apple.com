@@ -22,4 +22,93 @@ div {
     width: 100%;
     height: 538px;
     margin-top: -16px;
+    display: flex;
+    justify-content: center;
+}
+
+/* NAVIGATION MENU */
+
+.menu-bar {
+    margin-top: 60px;
+    width: 980px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    background-color: grey;
+    background-image: linear-gradient(to top, rgb(156, 154, 154), rgb(87, 87, 87), rgb(124, 124, 124), rgb(155, 153, 153));
+    border-radius: 5px;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: seashell;
+    list-style-type: none;
+    width: 980px;
+    height: 36px;
+    padding: 0;
+    font-size: 15px;
+    border-radius: 10px;
+    margin: 0;
+}
+
+.apple-logo img {
+    height: 20px;
+    width: auto;
+}
+
+.menu-items a {
+    cursor: pointer;
+    color: seashell;
+    text-decoration: none;
+}
+
+.search-nav {
+    width: 95px;
+    height: 19px;
+    border: 0.5px solid black;
+    background: none;
+    border-radius: 10px;
+    padding: 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-items li {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border: 0.5px ridge grey;
+}
+
+.apple-logo {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.nav-end {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+input {
+    background: none;
+    width: 60px;
+    border: none;
+}
+
+.search-nav img {
+    width: auto;
+    height: 12px;
+    background: none;
+}
+
+.image-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
